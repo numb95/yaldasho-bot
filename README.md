@@ -8,6 +8,7 @@ First you should clone the repo using `git clone https://github.com/numb95/yalda
 
 Rename `config.ini.sample` to `config.ini` and add your Telegram bot token which you obtain from [@botfather](https://t.me/botfather) in file. 
 
+Create a Directory called images and inside it create another two directories and name them `edited` and `original`. for later i should find another solution to handle temp files. Bot automatically delete temp images.
 Run the bot using you desirable solution (using `python main.py` or using `supervisor`)
 
 ## Licence
