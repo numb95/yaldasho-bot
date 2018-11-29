@@ -56,8 +56,8 @@ def start(bot , update):
     profile_picture_file.download('images/original/{}_@{}_original.jpg'.format(user_id,user_name))
     copyfile('images/original/{}_@{}_original.jpg'.format(user_id,user_name), 'images/edited/{}_@{}_edited.jpg'.format(user_id,user_name))
     bot.send_message(chat_id=user_id, text="دوتا طرح برات ارسال میشه. هرکدوم رو دوست داشتی انتخاب کن تا بر اساس اون تصویر نمایه‌ت ساخته بشه")
-    bot.send_photo(chat_id= update.message.chat_id, photo=open('assets/yalda1.png', 'rb',), caption='\n\n\n\n\n\n\n /design1 طرح اول')
-    bot.send_photo(chat_id= update.message.chat_id, photo=open('assets/yalda2.png', 'rb',), caption='\n\n\n\n\n\n\n /design2 طرح دوم')
+    bot.send_photo(chat_id= update.message.chat_id, photo=open('assets/yalda1.jpg', 'rb',), caption='\n\n\n\n\n\n\n /design1 طرح اول')
+    bot.send_photo(chat_id= update.message.chat_id, photo=open('assets/yalda2.jpg', 'rb',), caption='\n\n\n\n\n\n\n /design2 طرح دوم')
  
    
 def design1(bot, update):
