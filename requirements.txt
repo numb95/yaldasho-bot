@@ -16,7 +16,7 @@ Pillow==8.1.1
 prompt-toolkit==2.0.7
 ptyprocess==0.6.0
 pycparser==2.19
-Pygments==2.3.0
+Pygments==2.7.4
 python-telegram-bot==11.1.0
 six==1.11.0
 traitlets==4.3.2
