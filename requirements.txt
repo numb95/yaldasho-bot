@@ -2,7 +2,7 @@ asn1crypto==0.24.0
 backcall==0.1.0
 certifi==2018.10.15
 cffi==1.11.5
-cryptography==3.3.2
+cryptography==39.0.1
 decorator==4.3.0
 future==0.17.1
 idna==2.7
